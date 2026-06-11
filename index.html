@@ -119,16 +119,7 @@ label{
 </div>
 
 <div class="question" id="q2">
-<h3>Q2. 裝潢新家時你選擇的設備更傾向？</h3>
-<label onclick="next('A')">A. 功能夠多、價格合理最重要</label>
-<label onclick="next('B')">B. 產品背後的技術與專業度</label>
-<label onclick="next('C')">C. 耐用穩定，用久一點沒關係</label>
-<label onclick="next('D')">D. 設計、工藝與使用體驗</label>
-<label onclick="next('E')">E. 好用就好，品牌不重要</label>
-</div>
-
-<div class="question" id="q3">
-<h3>Q3. 工作上你更喜歡跟哪類型同事共事？</h3>
+<h3>Q2. 工作上你更喜歡跟哪類型同事共事？</h3>
 <label onclick="next('A')">A. 最有效率的方案派</label>
 <label onclick="next('B')">B. 重視流程與細節派</label>
 <label onclick="next('C')">C. 穩紮穩打派</label>
@@ -136,8 +127,8 @@ label{
 <label onclick="next('E')">E. 隨遇而安派</label>
 </div>
 
-<div class="question" id="q4">
-<h3>Q4. 朋友眼中的你？</h3>
+<div class="question" id="q3">
+<h3>Q3. 朋友眼中的你？</h3>
 <label onclick="next('A')">A. 精打細算</label>
 <label onclick="next('B')">B. 做事可靠</label>
 <label onclick="next('C')">C. 很有原則</label>
@@ -145,8 +136,8 @@ label{
 <label onclick="next('E')">E. 很好相處</label>
 </div>
 
-<div class="question" id="q5">
-<h3>Q5. 選車時你會偏向？</h3>
+<div class="question" id="q4">
+<h3>Q4. 選車時你會偏向？</h3>
 <label onclick="next('A')">A. 配備滿滿、價格合理</label>
 <label onclick="next('B')">B. 品牌技術實力強</label>
 <label onclick="next('C')">C. 耐開保值</label>
@@ -154,8 +145,8 @@ label{
 <label onclick="next('E')">E. 哪台順眼買哪台</label>
 </div>
 
-<div class="question" id="q6">
-<h3>Q6. 面對重大消費時，你通常會？</h3>
+<div class="question" id="q5">
+<h3>Q5. 面對重大消費時，你通常會？</h3>
 <label onclick="next('A')">A. 先比較價格和功能</label>
 <label onclick="next('B')">B. 研究規格與技術差異</label>
 <label onclick="next('C')">C. 看長期使用成本</label>
@@ -163,8 +154,8 @@ label{
 <label onclick="next('E')">E. 聽朋友推薦就好</label>
 </div>
 
-<div class="question" id="q7">
-<h3>Q7. 你最認同哪句話？</h3>
+<div class="question" id="q6">
+<h3>Q6. 你最認同哪句話？</h3>
 <label onclick="next('A')">A. 錢要花在刀口上</label>
 <label onclick="next('B')">B. 專業的事交給專業</label>
 <label onclick="next('C')">C. 品質決定價值</label>
@@ -293,7 +284,7 @@ scores[val]++;
 document.getElementById("q"+current).classList.remove("active");
 current++;
 
-if(current > 7){
+if(current > 6){
     showResult();
 }else{
     document.getElementById("q"+current).classList.add("active");
