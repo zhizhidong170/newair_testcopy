@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-7">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>冷氣人格測驗</title>
 
@@ -75,30 +75,25 @@ label{
 
 #result{
     display:none;
+    white-space:pre-line;
+    font-size:16px;
+    line-height:1.6;
     padding:20px;
     background:#f7f7f7;
     border-radius:15px;
-    text-align:center;
 }
 
-/* ⭐ 結果圖片（已修好） */
-.result-photo{
-    width:100%;
-    max-width:220px;
-    max-height:300px;
-    height:auto;
-    display:block;
-    margin:20px auto;
-    border-radius:12px;
-    object-fit:contain;
+.result-title{
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:10px;
 }
-
 </style>
 </head>
 
 <body>
 
-<!-- 開場頁 -->
+<!-- 🔵 開場頁 -->
 <div id="startPage" class="start-page">
     <h1>❄️ 冷氣人格測驗</h1>
     <p>輸入你的名字開始測驗</p>
